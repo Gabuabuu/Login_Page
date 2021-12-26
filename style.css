@@ -1,3 +1,40 @@
-body {
-    font-size: 15pt;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&family=Source+Sans+Pro&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  color:white;
+  background: rgba(0, 0, 255, 0.5);
 }
+
+.login-container {
+  margin-top: 500px;
+  text-align: center;
+  margin-left: 230px;
+  height: 550px;
+  width: 500px;
+  background: #0C0E1C;
+
+}
+
+.titulo-principal {
+  padding-top: 50px;
+  font-size: 60px;
+}
+
+.login-label {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: block;
+  padding: 25px;
+  font-size: 25px;
+  margin-right: 166px;
+}
+
+.login-input {
+  padding-top: 25px;
+  border-radius: 20px 20px 20px 20px;
+  width: 250px;
+}
+
+
+ 
